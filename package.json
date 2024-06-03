@@ -1,0 +1,19 @@
+{
+  "name": "client-management-app",
+  "version": "1.0.0",
+  "description": "A web application for fitness professionals to track their clients' progress.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johannes la Cock <jblacock777@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "multer": "^1.4.2",
+    "sqlite3": "^5.0.0"
+  }
+}
+
