@@ -19,7 +19,7 @@ Make sure you have the following installed on your machine:
 ### Step-by-Step Guide
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/JBlaCock/client-management-app.git>
    cd client-management-app
    ```
 
