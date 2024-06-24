@@ -19,7 +19,7 @@ Make sure you have the following installed on your machine:
 ### Step-by-Step Guide
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/JBlaCock/client-management-app.git>
+   git clone <repository-url>
    cd client-management-app
    ```
 
@@ -46,6 +46,39 @@ Make sure you have the following installed on your machine:
 
 6. **Open the Application:**
    Open your web browser and go to `http://localhost:3000` to view the application.
+
+7. **Test Cases and Data:**   
+   ## Test Cases and Data
+
+### Test Case 1: Adding a Client
+1. **Step 1**: Complete the "Add Client" form using the following test data:
+   - **Name**: JB la Cock
+   - **Age**: 27
+   - **Gender**: Male
+   - **Fitness Level**: Advanced
+   - **Fitness Goal**: Build Strength
+   - **Upload Client Image**: Download and save the following image to upload: [Client Image](https://unsplash.com/photos/man-wearing-blue-polo-shirt-with-building-background-GH-mSApoKO0)
+
+2. **Step 2**: Click the **"Add Client"** button.
+   - **Expected Result**: The client profile should be added to the database, and a message **"Client added successfully"** should be displayed.
+
+### Test Case 2: Adding Measurements
+1. **Step 1**: Navigate to the client "JB la Cock" from the client list.
+2. **Step 2**: Click on the **"View"** button located on the client profile. A modal will appear.
+3. **Step 3**: Navigate to the "Add Measurements" section.
+4. **Step 4**: Complete the "Add Measurements" form using the following test data:
+   - **Arm**: 15
+   - **Chest**: 40
+   - **Waist**: 32
+
+5. **Step 5**: Click the **"Save Measurements"** button.
+   - **Expected Result**: The "Measurement History" section should update immediately with the date and the stored data. (Step 3,4,and 5 can be repeated using the same test data to illustrate how record can be kept of client metrics.)
+
+### Test Case 3: Deleting a Client Profile
+1. **Step 1**: Go to the "List of Clients" section.
+2. **Step 2**: Click the **"Delete"** button on the desired client profile (e.g., JB la Cock). An alert will appear to confirm the deletion.
+3. **Step 3**: Click **"OK"** to confirm.
+   - **Expected Result**: A message **"Client deleted successfully"** should appear on the left side of the screen, and the client profile should be removed from the list.
 
 ### Project Structure
 - **public/**: Contains static files such as HTML, CSS, JavaScript, and images.
@@ -81,4 +114,4 @@ Make sure you have the following installed on your machine:
 Johannes la Cock
 - Email: [johannes-bernardus.la-cock@iu-study.org](mailto:johannes-bernardus.la-cock@iu-study.org)
 
-Feel free to reach out if you have any questions or need further assistance.
+Feel free to reach out if you have any questions or need further assistance to run the application.
